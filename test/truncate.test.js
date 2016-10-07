@@ -14,7 +14,7 @@ describe('.truncate', function() {
     const value = truncate('test', 2);
 
     it('returns the truncated string plus an ellipsis', function() {
-      expect(value).to.equal('te...');
+      expect(value).to.equal('te&hellip;');
     });
   });
 
